@@ -24,7 +24,7 @@ class PythonEnvsPlugin implements Plugin<Project> {
         final String arch = getArch()
         final String ext = isWindows ? "exe" : "sh"
 
-        return new URL("https://repo.continuum.io/$repository/${conda.version}-$osName-$arch.$ext")
+        return new URL("https://repo.anaconda.com/$repository/${conda.version}-$arch.$ext")
     }
 
     private static String getArch() {
