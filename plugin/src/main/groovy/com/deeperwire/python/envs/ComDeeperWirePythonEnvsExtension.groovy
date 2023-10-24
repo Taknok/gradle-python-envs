@@ -1,4 +1,4 @@
-package com.jetbrains.python.envs
+package com.deeperwire.python.envs
 
 
 import org.gradle.api.InvalidUserDataException
